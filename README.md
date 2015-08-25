@@ -8,8 +8,10 @@ A collection of Dockerfiles with IBM BigFix QnA
 The following example creates a 9.2.5.130 QnA image on CentOS 7:
 
 ```bash
-docker build -t bigfix/qna-centos:9.2.5 .
-docker run -t -i bigfix/qna-centos:9.2.5
+$ git clone https://github.com/bigfix/docker-qna.git
+$ cd 9.2/patch5/centos
+$ docker build -t bigfix/qna-centos:9.2.5 .
+$ docker run -t -i bigfix/qna-centos:9.2.5
 BESClientActionMastheadPath not set and no masthead found
 Q: name of operating system
 A: Linux CentOS 7.1.1503
