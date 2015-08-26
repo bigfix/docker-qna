@@ -11,4 +11,4 @@ ADD libBEScrypto.so /opt/BESClient/bin/libBEScrypto.so
 
 USER bigfix
 
-CMD ["/opt/BESClient/bin/qna"]
+CMD ["/opt/BESClient/bin/qna", "-showtypes"]
